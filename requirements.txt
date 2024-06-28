@@ -1,1 +1,2 @@
 dash_ag_grid
+dash-bootstrap-components
