@@ -10,7 +10,11 @@ THIS_FOLDER = Path(__file__).parent.parent.resolve()
 points_file = THIS_FOLDER / "data/points.csv"
 df = pd.read_csv(points_file).sort_values(by="Points", ascending=False)
 columnDefs = [
-    {"field": "Model", "sortable": True},
+    {
+        "field": "Model",
+        "sortable": True,
+        "cellRenderer": "ModelLink",
+    },
     {"field": "Engine"},
     {"field": "Points"},
 ]
@@ -22,7 +26,9 @@ register_page(__name__, name="Standings", top_nav=True, path="/")
 def layout():
     layout = html.Div(
         children=[
-            html.P(children=("Formula Monash"), className="header-description"),
+            html.P(
+                children=("Formula Monash Standings"), className="header-description"
+            ),
             html.P(
                 children=(
                     "Analyze the MASE performance of time series models"
