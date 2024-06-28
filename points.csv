@@ -1,0 +1,15 @@
+Model,Points
+ETS,439
+TBATS,423
+N-BEATS,385
+WaveNet,372
+Theta,351
+FFNN,338
+DeepAR,327
+PR,321
+(DHR-)ARIMA,304
+CatBoost,273
+Transformer,236
+SES,178
+Prophet,177
+Informer*,18
