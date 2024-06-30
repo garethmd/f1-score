@@ -9,7 +9,7 @@ register_page(__name__, name="Model", top_nav=True, path_template="/model/<model
 
 THIS_FOLDER = Path(__file__).parent.parent.resolve()
 results_file = THIS_FOLDER / "data/results.csv"
-df = pd.read_csv(results_file).sort_values(by="Dataset", ascending=True)
+df = pd.read_csv(results_file).sort_values(by="position", ascending=True)
 columnDefs = [
     {
         "field": "Dataset",
