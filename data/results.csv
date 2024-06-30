@@ -1,0 +1,575 @@
+Dataset,model,position,points,mase
+M1 Yearly,SES,11,0.0,4.938
+M1 Monthly,SES,11,0.0,1.379
+M3 Other,SES,11,0.0,3.089
+M4 Hourly,SES,11,0.0,11.607
+Electricity Hourly,SES,11,0.0,4.544
+Hospital,SES,11,0.0,0.813
+Temp. Rain,SES,11,0.0,1.347
+Aus. Elecdemand,Theta,11,0.0,1.867
+Electricity Weekly,Theta,11,0.0,1.476
+Births,Theta,11,0.0,2.138
+Tourism Monthly,TBATS,11,0.0,1.751
+Pedestrians,TBATS,11,0.0,1.297
+NN5 Daily,(DHR-)ARIMA,11,0.0,1.013
+Carparts,(DHR-)ARIMA,11,0.0,0.926
+Traffic Weekly,(DHR-)ARIMA,11,0.0,1.191
+Kaggle Weekly,PR,11,0.0,1.021
+COVID,PR,11,0.0,8.731
+M1 Quarterly,CatBoost,11,0.0,2.031
+M3 Quarterly,CatBoost,11,0.0,1.441
+M4 Weekly,CatBoost,11,0.0,0.615
+M4 Daily,CatBoost,11,0.0,1.593
+CIF 2016,CatBoost,11,0.0,1.175
+Weather,CatBoost,11,0.0,0.762
+M4 Quarterly,FFNN,11,0.0,1.42
+Sunspot,FFNN,11,0.0,0.207
+M3 Yearly,DeepAR,11,0.0,3.508
+M3 Monthly,DeepAR,11,0.0,1.167
+M4 Monthly,DeepAR,11,0.0,1.163
+KDD,DeepAR,11,0.0,1.699
+Dominick,N-BEATS,11,0.0,0.952
+Bitcoin,N-BEATS,11,0.0,7.254
+Vehicle Trips,N-BEATS,11,0.0,2.143
+Saugeen,N-BEATS,11,0.0,1.852
+Tourism Yearly,WaveNet,11,0.0,3.624
+Tourism Quarterly,Transformer,11,0.0,1.859
+FRED-MD,Transformer,11,0.0,1.823
+NN5 Weekly,Prophet,11,0.0,0.927
+Solar 10 Mins,Prophet,11,0.0,1.821
+Solar Weekly,Prophet,11,0.0,1.508
+M1 Quarterly,SES,10,1.0,1.929
+M3 Quarterly,SES,10,1.0,1.417
+M3 Monthly,SES,10,1.0,1.091
+M4 Quarterly,SES,10,1.0,1.417
+Aus. Elecdemand,SES,10,1.0,1.857
+Traffic Hourly,SES,10,1.0,1.922
+M4 Hourly,Theta,10,1.0,11.524
+Weather,Theta,10,1.0,0.749
+Solar Weekly,Theta,10,1.0,1.224
+Traffic Hourly,Theta,10,1.0,1.922
+Tourism Quarterly,TBATS,10,1.0,1.835
+Electricity Hourly,TBATS,10,1.0,3.69
+Pedestrians,ETS,10,1.0,1.19
+NN5 Weekly,ETS,10,1.0,0.911
+Carparts,ETS,10,1.0,0.925
+Rideshare,ETS,10,1.0,4.04
+M3 Yearly,(DHR-)ARIMA,10,1.0,3.417
+Saugeen,PR,10,1.0,1.674
+Births,PR,10,1.0,2.094
+M1 Monthly,CatBoost,10,1.0,1.209
+Tourism Yearly,CatBoost,10,1.0,3.553
+Tourism Monthly,CatBoost,10,1.0,1.699
+NN5 Daily,CatBoost,10,1.0,0.973
+FRED-MD,CatBoost,10,1.0,0.947
+Hospital,CatBoost,10,1.0,0.798
+COVID,CatBoost,10,1.0,8.241
+M3 Other,DeepAR,10,1.0,2.975
+Bitcoin,DeepAR,10,1.0,6.394
+Vehicle Trips,DeepAR,10,1.0,1.929
+Traffic Weekly,DeepAR,10,1.0,1.182
+Temp. Rain,N-BEATS,10,1.0,1.3
+M1 Yearly,WaveNet,10,1.0,4.666
+M4 Monthly,WaveNet,10,1.0,1.16
+M4 Daily,Transformer,10,1.0,1.377
+CIF 2016,Transformer,10,1.0,1.173
+KDD,Transformer,10,1.0,1.696
+Kaggle Weekly,Transformer,10,1.0,0.888
+Rideshare,Transformer,10,1.0,4.04
+Dominick,Prophet,10,1.0,0.827
+Solar 10 Mins,Informer*,10,1.0,1.614
+Electricity Weekly,Informer*,10,1.0,1.444
+M3 Yearly,SES,7,6.0,3.167
+COVID,SES,7,6.0,7.776
+NN5 Weekly,Theta,7,6.0,0.885
+Rideshare,Theta,7,6.0,3.641
+M4 Hourly,TBATS,7,6.0,2.663
+Bitcoin,TBATS,7,6.0,4.611
+M4 Weekly,ETS,7,6.0,0.575
+Solar Weekly,ETS,7,6.0,1.134
+Traffic Weekly,ETS,7,6.0,1.125
+M1 Yearly,(DHR-)ARIMA,7,6.0,4.479
+M4 Daily,(DHR-)ARIMA,7,6.0,1.179
+Tourism Monthly,(DHR-)ARIMA,7,6.0,1.589
+M3 Monthly,PR,7,6.0,1.01
+Hospital,PR,7,6.0,0.782
+Sunspot,PR,7,6.0,0.099
+M4 Monthly,CatBoost,7,6.0,1.093
+M3 Other,FFNN,7,6.0,2.615
+Tourism Yearly,FFNN,7,6.0,3.401
+Aus. Elecdemand,FFNN,7,6.0,1.222
+Dominick,FFNN,7,6.0,0.614
+Vehicle Trips,FFNN,7,6.0,1.843
+M1 Quarterly,DeepAR,7,6.0,1.833
+M1 Monthly,DeepAR,7,6.0,1.192
+M4 Quarterly,DeepAR,7,6.0,1.274
+Kaggle Weekly,DeepAR,7,6.0,0.758
+FRED-MD,DeepAR,7,6.0,0.64
+Pedestrians,N-BEATS,7,6.0,0.38
+KDD,N-BEATS,7,6.0,1.6
+Weather,N-BEATS,7,6.0,0.717
+M3 Quarterly,WaveNet,7,6.0,1.29
+Tourism Quarterly,WaveNet,7,6.0,1.714
+Births,WaveNet,7,6.0,1.837
+CIF 2016,Prophet,7,6.0,1.029
+Electricity Weekly,Prophet,7,6.0,0.924
+Carparts,Prophet,7,6.0,0.876
+Traffic Hourly,Prophet,7,6.0,1.316
+Temp. Rain,Prophet,7,6.0,1.15
+Saugeen,Prophet,7,6.0,1.51
+NN5 Daily,Informer*,7,6.0,0.933
+Electricity Hourly,Informer*,7,6.0,2.682
+M4 Monthly,SES,8,4.0,1.15
+Pedestrians,SES,8,4.0,0.957
+KDD,SES,8,4.0,1.645
+Carparts,SES,8,4.0,0.897
+Tourism Monthly,Theta,8,4.0,1.649
+Solar 10 Mins,Theta,8,4.0,1.452
+FRED-MD,Theta,8,4.0,0.698
+COVID,Theta,8,4.0,7.793
+Dominick,TBATS,8,4.0,0.722
+Traffic Weekly,TBATS,8,4.0,1.148
+Kaggle Weekly,ETS,8,4.0,0.77
+Tourism Quarterly,(DHR-)ARIMA,8,4.0,1.782
+NN5 Weekly,(DHR-)ARIMA,8,4.0,0.887
+Hospital,(DHR-)ARIMA,8,4.0,0.787
+Temp. Rain,(DHR-)ARIMA,8,4.0,1.174
+Births,(DHR-)ARIMA,8,4.0,1.917
+M1 Yearly,PR,8,4.0,4.588
+M3 Yearly,PR,8,4.0,3.223
+M3 Other,PR,8,4.0,2.655
+M4 Quarterly,PR,8,4.0,1.316
+Tourism Yearly,PR,8,4.0,3.516
+Electricity Hourly,PR,8,4.0,2.912
+M1 Quarterly,FFNN,8,4.0,1.862
+M3 Monthly,FFNN,8,4.0,1.011
+M4 Hourly,FFNN,8,4.0,2.862
+CIF 2016,FFNN,8,4.0,1.053
+NN5 Daily,FFNN,8,4.0,0.941
+Saugeen,FFNN,8,4.0,1.524
+M3 Quarterly,DeepAR,8,4.0,1.31
+M4 Weekly,DeepAR,8,4.0,0.586
+Electricity Weekly,DeepAR,8,4.0,1.005
+M4 Daily,N-BEATS,8,4.0,1.218
+Solar Weekly,N-BEATS,8,4.0,1.184
+Rideshare,N-BEATS,8,4.0,3.877
+M1 Monthly,WaveNet,8,4.0,1.2
+Bitcoin,WaveNet,8,4.0,5.315
+Vehicle Trips,WaveNet,8,4.0,1.851
+Weather,WaveNet,8,4.0,0.721
+Aus. Elecdemand,Prophet,8,4.0,1.414
+Traffic Hourly,Informer*,8,4.0,1.439
+M4 Weekly,SES,9,2.0,0.587
+NN5 Weekly,SES,9,2.0,0.903
+Solar Weekly,SES,9,2.0,1.215
+Sunspot,SES,9,2.0,0.128
+Pedestrians,Theta,9,2.0,0.958
+KDD,Theta,9,2.0,1.646
+Carparts,Theta,9,2.0,0.914
+Sunspot,Theta,9,2.0,0.128
+Vehicle Trips,TBATS,9,2.0,1.86
+Temp. Rain,TBATS,9,2.0,1.227
+M4 Daily,ETS,9,2.0,1.239
+Sunspot,ETS,9,2.0,0.128
+Dominick,(DHR-)ARIMA,9,2.0,0.796
+Weather,(DHR-)ARIMA,9,2.0,0.746
+Kaggle Weekly,(DHR-)ARIMA,9,2.0,0.815
+M1 Quarterly,PR,9,2.0,1.892
+Tourism Monthly,PR,9,2.0,1.678
+M3 Monthly,CatBoost,9,2.0,1.065
+M4 Quarterly,CatBoost,9,2.0,1.338
+Tourism Quarterly,CatBoost,9,2.0,1.793
+Traffic Hourly,CatBoost,9,2.0,1.571
+M1 Monthly,FFNN,9,2.0,1.205
+M3 Yearly,FFNN,9,2.0,3.399
+M3 Quarterly,FFNN,9,2.0,1.329
+M4 Monthly,FFNN,9,2.0,1.151
+Bitcoin,FFNN,9,2.0,6.006
+Electricity Hourly,FFNN,9,2.0,3.2
+Traffic Weekly,FFNN,9,2.0,1.15
+Births,FFNN,9,2.0,2.032
+M1 Yearly,DeepAR,9,2.0,4.603
+CIF 2016,DeepAR,9,2.0,1.159
+Aus. Elecdemand,DeepAR,9,2.0,1.591
+Rideshare,DeepAR,9,2.0,4.029
+Saugeen,DeepAR,9,2.0,1.56
+Solar 10 Mins,N-BEATS,9,2.0,1.573
+Hospital,N-BEATS,9,2.0,0.791
+M4 Weekly,WaveNet,9,2.0,0.587
+Electricity Weekly,WaveNet,9,2.0,1.25
+FRED-MD,WaveNet,9,2.0,0.806
+COVID,WaveNet,9,2.0,7.835
+M3 Other,Transformer,9,2.0,2.781
+M4 Hourly,Transformer,9,2.0,8.84
+Tourism Yearly,Transformer,9,2.0,3.552
+NN5 Daily,Transformer,9,2.0,0.958
+M4 Daily,SES,3,15.0,1.154
+Vehicle Trips,SES,3,15.0,1.224
+Traffic Weekly,SES,3,15.0,1.116
+Saugeen,SES,3,15.0,1.426
+M1 Yearly,Theta,3,15.0,4.191
+M4 Monthly,Theta,3,15.0,0.97
+Tourism Yearly,Theta,3,15.0,3.015
+M1 Monthly,TBATS,3,15.0,1.118
+M3 Other,TBATS,3,15.0,1.848
+M4 Weekly,TBATS,3,15.0,0.504
+COVID,TBATS,3,15.0,5.719
+M3 Monthly,ETS,3,15.0,0.865
+Tourism Monthly,ETS,3,15.0,1.526
+Hospital,ETS,3,15.0,0.765
+M4 Quarterly,(DHR-)ARIMA,3,15.0,1.228
+CIF 2016,(DHR-)ARIMA,3,15.0,0.929
+Solar Weekly,(DHR-)ARIMA,3,15.0,0.848
+FRED-MD,(DHR-)ARIMA,3,15.0,0.533
+M4 Hourly,CatBoost,3,15.0,1.771
+Bitcoin,CatBoost,3,15.0,2.888
+Pedestrians,CatBoost,3,15.0,0.262
+NN5 Weekly,CatBoost,3,15.0,0.853
+Traffic Weekly,CatBoost,3,15.0,1.116
+KDD,FFNN,3,15.0,1.228
+Traffic Hourly,FFNN,3,15.0,0.892
+Tourism Quarterly,DeepAR,3,15.0,1.597
+Dominick,DeepAR,3,15.0,0.54
+Sunspot,DeepAR,3,15.0,0.02
+M3 Yearly,N-BEATS,3,15.0,2.961
+M3 Quarterly,N-BEATS,3,15.0,1.182
+Aus. Elecdemand,N-BEATS,3,15.0,1.014
+Kaggle Weekly,N-BEATS,3,15.0,0.667
+Electricity Weekly,N-BEATS,3,15.0,0.8
+Births,N-BEATS,3,15.0,1.537
+M1 Quarterly,WaveNet,3,15.0,1.7
+Rideshare,WaveNet,3,15.0,3.009
+Temp. Rain,WaveNet,3,15.0,0.786
+Weather,Transformer,3,15.0,0.65
+NN5 Daily,Prophet,3,15.0,0.883
+Electricity Hourly,Prophet,3,15.0,2.05
+Tourism Yearly,SES,5,10.0,3.253
+Bitcoin,SES,5,10.0,4.327
+Solar 10 Mins,SES,5,10.0,1.451
+M3 Other,Theta,5,10.0,2.271
+M4 Weekly,Theta,5,10.0,0.546
+Tourism Quarterly,Theta,5,10.0,1.661
+CIF 2016,Theta,5,10.0,0.997
+Kaggle Weekly,Theta,5,10.0,0.694
+Traffic Weekly,Theta,5,10.0,1.121
+M4 Monthly,TBATS,5,10.0,1.053
+Weather,TBATS,5,10.0,0.689
+Sunspot,TBATS,5,10.0,0.067
+Saugeen,TBATS,5,10.0,1.477
+Dominick,ETS,5,10.0,0.595
+Solar 10 Mins,ETS,5,10.0,1.451
+M1 Quarterly,(DHR-)ARIMA,5,10.0,1.787
+M1 Monthly,(DHR-)ARIMA,5,10.0,1.164
+Vehicle Trips,(DHR-)ARIMA,5,10.0,1.282
+Electricity Weekly,(DHR-)ARIMA,5,10.0,0.878
+COVID,(DHR-)ARIMA,5,10.0,6.117
+Sunspot,(DHR-)ARIMA,5,10.0,0.067
+M3 Quarterly,PR,5,10.0,1.248
+KDD,PR,5,10.0,1.265
+Solar 10 Mins,PR,5,10.0,1.451
+Carparts,PR,5,10.0,0.755
+Rideshare,PR,5,10.0,3.019
+Temp. Rain,PR,5,10.0,0.876
+Births,CatBoost,5,10.0,1.609
+Solar Weekly,FFNN,5,10.0,1.045
+M4 Hourly,DeepAR,5,10.0,2.145
+Pedestrians,DeepAR,5,10.0,0.272
+NN5 Weekly,DeepAR,5,10.0,0.863
+Electricity Hourly,DeepAR,5,10.0,2.516
+Hospital,DeepAR,5,10.0,0.769
+M1 Yearly,N-BEATS,5,10.0,4.384
+M3 Monthly,N-BEATS,5,10.0,0.934
+M4 Quarterly,N-BEATS,5,10.0,1.239
+Tourism Monthly,N-BEATS,5,10.0,1.574
+FRED-MD,N-BEATS,5,10.0,0.604
+Traffic Hourly,N-BEATS,5,10.0,1.1
+M3 Yearly,WaveNet,5,10.0,3.014
+NN5 Daily,WaveNet,5,10.0,0.916
+Aus. Elecdemand,Transformer,5,10.0,1.113
+Solar 10 Mins,Transformer,5,10.0,1.451
+Tourism Quarterly,SES,13,0.0,3.21
+Tourism Monthly,SES,13,0.0,3.306
+Electricity Weekly,SES,13,0.0,1.536
+Births,SES,13,0.0,4.343
+Solar 10 Mins,TBATS,13,0.0,3.936
+Traffic Hourly,TBATS,13,0.0,2.482
+M4 Hourly,ETS,13,0.0,26.69
+Aus. Elecdemand,ETS,13,0.0,5.663
+Temp. Rain,ETS,13,0.0,1.401
+Tourism Yearly,(DHR-)ARIMA,13,0.0,3.775
+Pedestrians,(DHR-)ARIMA,13,0.0,3.947
+KDD,(DHR-)ARIMA,13,0.0,1.982
+Electricity Hourly,(DHR-)ARIMA,13,0.0,4.602
+Weather,PR,13,0.0,3.046
+NN5 Daily,PR,13,0.0,1.263
+FRED-MD,PR,13,0.0,8.827
+Dominick,CatBoost,13,0.0,1.038
+Kaggle Weekly,CatBoost,13,0.0,1.928
+Carparts,N-BEATS,13,0.0,2.836
+CIF 2016,WaveNet,13,0.0,1.8
+NN5 Weekly,WaveNet,13,0.0,1.123
+Solar Weekly,WaveNet,13,0.0,1.961
+M1 Quarterly,Transformer,13,0.0,2.772
+M1 Monthly,Transformer,13,0.0,2.191
+M3 Quarterly,Transformer,13,0.0,2.452
+M3 Monthly,Transformer,13,0.0,1.454
+M4 Monthly,Transformer,13,0.0,2.125
+Vehicle Trips,Transformer,13,0.0,2.532
+Hospital,Transformer,13,0.0,1.031
+M1 Yearly,Prophet,13,0.0,5.633
+M3 Yearly,Prophet,13,0.0,4.152
+M3 Other,Prophet,13,0.0,4.694
+M4 Quarterly,Prophet,13,0.0,1.758
+M4 Weekly,Prophet,13,0.0,1.049
+M4 Daily,Prophet,13,0.0,3.698
+Bitcoin,Prophet,13,0.0,11.089
+Rideshare,Prophet,13,0.0,4.666
+COVID,Prophet,13,0.0,12.77
+Traffic Weekly,Informer*,13,0.0,1.323
+Sunspot,Informer*,13,0.0,0.504
+Saugeen,Informer*,13,0.0,1.896
+CIF 2016,SES,12,0.0,1.291
+Electricity Hourly,Theta,12,0.0,4.545
+Temp. Rain,Theta,12,0.0,1.368
+Tourism Yearly,TBATS,12,0.0,3.685
+Carparts,TBATS,12,0.0,0.998
+KDD,ETS,12,0.0,1.787
+Electricity Weekly,ETS,12,0.0,1.526
+Traffic Hourly,ETS,12,0.0,2.294
+M4 Hourly,(DHR-)ARIMA,12,0.0,13.557
+Aus. Elecdemand,(DHR-)ARIMA,12,0.0,2.574
+Dominick,PR,12,0.0,0.98
+M3 Yearly,CatBoost,12,0.0,3.788
+M3 Other,CatBoost,12,0.0,3.178
+Solar 10 Mins,CatBoost,12,0.0,2.504
+Solar Weekly,CatBoost,12,0.0,1.53
+Rideshare,FFNN,12,0.0,4.198
+Hospital,FFNN,12,0.0,0.84
+M4 Daily,DeepAR,12,0.0,2.212
+NN5 Daily,N-BEATS,12,0.0,1.134
+Sunspot,N-BEATS,12,0.0,0.375
+Traffic Weekly,WaveNet,12,0.0,1.233
+M1 Yearly,Transformer,12,0.0,5.519
+M4 Quarterly,Transformer,12,0.0,1.52
+M4 Weekly,Transformer,12,0.0,0.695
+Bitcoin,Transformer,12,0.0,8.462
+COVID,Transformer,12,0.0,8.941
+Saugeen,Transformer,12,0.0,1.861
+M1 Quarterly,Prophet,12,0.0,2.136
+M1 Monthly,Prophet,12,0.0,1.712
+M3 Quarterly,Prophet,12,0.0,1.672
+M3 Monthly,Prophet,12,0.0,1.375
+M4 Monthly,Prophet,12,0.0,1.367
+Tourism Quarterly,Prophet,12,0.0,2.153
+Tourism Monthly,Prophet,12,0.0,2.008
+Pedestrians,Prophet,12,0.0,2.034
+Vehicle Trips,Prophet,12,0.0,2.428
+Weather,Prophet,12,0.0,0.88
+Kaggle Weekly,Prophet,12,0.0,1.196
+FRED-MD,Prophet,12,0.0,1.843
+NN5 Weekly,Informer*,12,0.0,1.079
+Births,Informer*,12,0.0,2.22
+Dominick,SES,4,13.0,0.582
+Weather,SES,4,13.0,0.677
+Rideshare,SES,4,13.0,3.014
+M1 Quarterly,Theta,4,13.0,1.702
+M4 Quarterly,Theta,4,13.0,1.231
+Vehicle Trips,Theta,4,13.0,1.244
+NN5 Daily,Theta,4,13.0,0.885
+M4 Daily,TBATS,4,13.0,1.157
+Solar Weekly,TBATS,4,13.0,0.916
+Hospital,TBATS,4,13.0,0.768
+M3 Quarterly,(DHR-)ARIMA,4,13.0,1.24
+M3 Monthly,(DHR-)ARIMA,4,13.0,0.873
+Bitcoin,(DHR-)ARIMA,4,13.0,4.03
+M1 Monthly,PR,4,13.0,1.123
+Tourism Quarterly,PR,4,13.0,1.643
+NN5 Weekly,PR,4,13.0,0.854
+KDD,CatBoost,4,13.0,1.233
+Electricity Hourly,CatBoost,4,13.0,2.262
+Electricity Weekly,CatBoost,4,13.0,0.815
+Sunspot,CatBoost,4,13.0,0.059
+M1 Yearly,FFNN,4,13.0,4.355
+M4 Weekly,FFNN,4,13.0,0.545
+Pedestrians,FFNN,4,13.0,0.267
+Kaggle Weekly,FFNN,4,13.0,0.689
+FRED-MD,FFNN,4,13.0,0.601
+Temp. Rain,FFNN,4,13.0,0.847
+Tourism Yearly,DeepAR,4,13.0,3.205
+Births,DeepAR,4,13.0,1.548
+M4 Monthly,N-BEATS,4,13.0,1.026
+CIF 2016,N-BEATS,4,13.0,0.971
+COVID,N-BEATS,4,13.0,5.858
+M3 Other,WaveNet,4,13.0,2.127
+M4 Daily,WaveNet,4,13.0,1.157
+Aus. Elecdemand,WaveNet,4,13.0,1.102
+Carparts,WaveNet,4,13.0,0.754
+Traffic Hourly,WaveNet,4,13.0,1.066
+Saugeen,WaveNet,4,13.0,1.471
+M3 Yearly,Transformer,4,13.0,3.003
+Tourism Monthly,Transformer,4,13.0,1.571
+M4 Hourly,Prophet,4,13.0,1.776
+NN5 Daily,SES,14,0.0,1.521
+Electricity Hourly,ETS,14,0.0,6.501
+Saugeen,ETS,14,0.0,2.036
+Traffic Hourly,(DHR-)ARIMA,14,0.0,2.535
+Solar 10 Mins,WaveNet,14,0.0,99.0
+NN5 Weekly,Transformer,14,0.0,1.141
+Electricity Weekly,Transformer,14,0.0,1.77
+Traffic Weekly,Transformer,14,0.0,1.555
+Sunspot,Prophet,14,0.0,0.852
+Births,Prophet,14,0.0,5.626
+M1 Yearly,Informer*,14,0.0,99.0
+M1 Quarterly,Informer*,14,0.0,99.0
+M1 Monthly,Informer*,14,0.0,99.0
+M3 Yearly,Informer*,14,0.0,99.0
+M3 Quarterly,Informer*,14,0.0,99.0
+M3 Monthly,Informer*,14,0.0,99.0
+M3 Other,Informer*,14,0.0,99.0
+M4 Quarterly,Informer*,14,0.0,99.0
+M4 Monthly,Informer*,14,0.0,99.0
+M4 Weekly,Informer*,14,0.0,99.0
+M4 Daily,Informer*,14,0.0,99.0
+M4 Hourly,Informer*,14,0.0,99.0
+Tourism Yearly,Informer*,14,0.0,99.0
+Tourism Quarterly,Informer*,14,0.0,99.0
+Tourism Monthly,Informer*,14,0.0,99.0
+CIF 2016,Informer*,14,0.0,99.0
+Aus. Elecdemand,Informer*,14,0.0,99.0
+Dominick,Informer*,14,0.0,99.0
+Bitcoin,Informer*,14,0.0,99.0
+Pedestrians,Informer*,14,0.0,99.0
+Vehicle Trips,Informer*,14,0.0,99.0
+KDD,Informer*,14,0.0,99.0
+Weather,Informer*,14,0.0,99.0
+Kaggle Weekly,Informer*,14,0.0,99.0
+Solar Weekly,Informer*,14,0.0,2.408
+Carparts,Informer*,14,0.0,99.0
+FRED-MD,Informer*,14,0.0,17.839
+Rideshare,Informer*,14,0.0,99.0
+Hospital,Informer*,14,0.0,1.221
+COVID,Informer*,14,0.0,99.0
+Temp. Rain,Informer*,14,0.0,99.0
+Kaggle Weekly,SES,6,8.0,0.698
+FRED-MD,SES,6,8.0,0.617
+Dominick,Theta,6,8.0,0.61
+Bitcoin,Theta,6,8.0,4.344
+M3 Yearly,TBATS,6,8.0,3.127
+M3 Quarterly,TBATS,6,8.0,1.256
+Aus. Elecdemand,TBATS,6,8.0,1.174
+KDD,TBATS,6,8.0,1.394
+NN5 Weekly,TBATS,6,8.0,0.872
+Rideshare,TBATS,6,8.0,3.067
+Tourism Yearly,ETS,6,8.0,3.395
+Vehicle Trips,ETS,6,8.0,1.305
+Weather,ETS,6,8.0,0.702
+M4 Weekly,(DHR-)ARIMA,6,8.0,0.55
+Saugeen,(DHR-)ARIMA,6,8.0,1.485
+M4 Monthly,PR,6,8.0,1.08
+M4 Daily,PR,6,8.0,1.162
+CIF 2016,PR,6,8.0,1.019
+Solar Weekly,PR,6,8.0,1.053
+Electricity Weekly,PR,6,8.0,0.916
+Traffic Hourly,PR,6,8.0,1.281
+Traffic Weekly,PR,6,8.0,1.122
+M1 Yearly,CatBoost,6,8.0,4.427
+Carparts,CatBoost,6,8.0,0.853
+Temp. Rain,CatBoost,6,8.0,1.028
+Tourism Quarterly,FFNN,6,8.0,1.678
+Tourism Monthly,FFNN,6,8.0,1.582
+NN5 Daily,DeepAR,6,8.0,0.919
+COVID,DeepAR,6,8.0,6.895
+M1 Quarterly,N-BEATS,6,8.0,1.788
+M1 Monthly,N-BEATS,6,8.0,1.168
+M3 Other,N-BEATS,6,8.0,2.39
+M4 Hourly,N-BEATS,6,8.0,2.247
+M3 Monthly,WaveNet,6,8.0,1.008
+M4 Quarterly,WaveNet,6,8.0,1.242
+Hospital,WaveNet,6,8.0,0.779
+Pedestrians,Transformer,6,8.0,0.274
+Electricity Hourly,Transformer,6,8.0,2.522
+Births,Transformer,6,8.0,1.65
+M1 Monthly,Theta,2,18.0,1.091
+M3 Monthly,Theta,2,18.0,0.864
+M4 Daily,Theta,2,18.0,1.153
+Hospital,Theta,2,18.0,0.761
+Saugeen,Theta,2,18.0,1.425
+M1 Quarterly,TBATS,2,18.0,1.694
+M4 Quarterly,TBATS,2,18.0,1.186
+CIF 2016,TBATS,2,18.0,0.861
+Electricity Weekly,TBATS,2,18.0,0.792
+FRED-MD,TBATS,2,18.0,0.502
+M1 Yearly,ETS,2,18.0,3.771
+M3 Yearly,ETS,2,18.0,2.86
+M3 Quarterly,ETS,2,18.0,1.17
+Tourism Quarterly,ETS,2,18.0,1.592
+Bitcoin,ETS,2,18.0,2.718
+NN5 Daily,ETS,2,18.0,0.865
+Births,ETS,2,18.0,1.529
+M3 Other,(DHR-)ARIMA,2,18.0,1.831
+M4 Monthly,(DHR-)ARIMA,2,18.0,0.962
+M4 Weekly,PR,2,18.0,0.481
+Aus. Elecdemand,PR,2,18.0,0.78
+Pedestrians,PR,2,18.0,0.256
+Vehicle Trips,PR,2,18.0,1.212
+Rideshare,CatBoost,2,18.0,2.908
+Weather,FFNN,2,18.0,0.638
+NN5 Weekly,FFNN,2,18.0,0.85
+Solar 10 Mins,FFNN,2,18.0,1.45
+Carparts,FFNN,2,18.0,0.747
+COVID,FFNN,2,18.0,5.459
+Solar 10 Mins,DeepAR,2,18.0,1.45
+Solar Weekly,DeepAR,2,18.0,0.725
+Carparts,DeepAR,2,18.0,0.747
+Traffic Hourly,DeepAR,2,18.0,0.825
+Temp. Rain,DeepAR,2,18.0,0.785
+Tourism Yearly,N-BEATS,2,18.0,2.977
+Electricity Hourly,N-BEATS,2,18.0,1.968
+Traffic Weekly,N-BEATS,2,18.0,1.094
+M4 Hourly,WaveNet,2,18.0,1.68
+Tourism Monthly,WaveNet,2,18.0,1.482
+Kaggle Weekly,WaveNet,2,18.0,0.628
+Sunspot,WaveNet,2,18.0,0.004
+KDD,Prophet,2,18.0,1.186
+M3 Yearly,Theta,1,25.0,2.774
+M3 Quarterly,Theta,1,25.0,1.117
+M1 Yearly,TBATS,1,25.0,3.499
+M3 Monthly,TBATS,1,25.0,0.861
+NN5 Daily,TBATS,1,25.0,0.858
+Kaggle Weekly,TBATS,1,25.0,0.622
+Births,TBATS,1,25.0,1.453
+M1 Quarterly,ETS,1,25.0,1.658
+M1 Monthly,ETS,1,25.0,1.074
+M3 Other,ETS,1,25.0,1.814
+M4 Quarterly,ETS,1,25.0,1.161
+M4 Monthly,ETS,1,25.0,0.948
+CIF 2016,ETS,1,25.0,0.841
+FRED-MD,ETS,1,25.0,0.468
+COVID,ETS,1,25.0,5.326
+Solar 10 Mins,(DHR-)ARIMA,1,25.0,1.034
+Rideshare,(DHR-)ARIMA,1,25.0,1.53
+M4 Hourly,PR,1,25.0,1.662
+Bitcoin,PR,1,25.0,2.664
+Aus. Elecdemand,CatBoost,1,25.0,0.705
+Vehicle Trips,CatBoost,1,25.0,1.176
+Saugeen,CatBoost,1,25.0,1.411
+M4 Daily,FFNN,1,25.0,1.141
+Electricity Weekly,FFNN,1,25.0,0.769
+Tourism Monthly,DeepAR,1,25.0,1.409
+Weather,DeepAR,1,25.0,0.631
+M4 Weekly,N-BEATS,1,25.0,0.453
+Tourism Quarterly,N-BEATS,1,25.0,1.475
+NN5 Weekly,N-BEATS,1,25.0,0.808
+Dominick,WaveNet,1,25.0,0.531
+Pedestrians,WaveNet,1,25.0,0.247
+KDD,WaveNet,1,25.0,1.185
+Electricity Hourly,WaveNet,1,25.0,1.606
+Dominick,Transformer,1,25.0,0.531
+Solar Weekly,Transformer,1,25.0,0.574
+Carparts,Transformer,1,25.0,0.746
+Traffic Hourly,Transformer,1,25.0,0.821
+Temp. Rain,Transformer,1,25.0,0.687
+Sunspot,Transformer,1,25.0,0.003
+Tourism Yearly,Prophet,1,25.0,2.59
+Traffic Weekly,Prophet,1,25.0,1.084
+Hospital,Prophet,1,25.0,0.673
