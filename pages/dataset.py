@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import dash_ag_grid as dag
+import dash_bootstrap_components as dbc
 import pandas as pd
 from dash import html  # , callback # If you need callbacks, import it here.
 from dash import dcc, register_page
@@ -25,12 +26,14 @@ columnDefs = [
 
 
 def layout(dataset_id: str):
-    layout = html.Div(
+    content = html.Div(
         children=[
             dcc.Markdown(
                 """
-                ### Standings
-                The following table contains the Formula Monash Datasets.
+                ### """
+                + dataset_id.replace("%20", " ")
+                + """
+                The following table list the model performance.
                 """
             ),
             dag.AgGrid(
@@ -42,9 +45,9 @@ def layout(dataset_id: str):
                 columnDefs=columnDefs,
                 columnSize="sizeToFit",
                 dashGridOptions={"animateRows": True},
-                style={"height": "700px"},
+                style={"height": "80vh"},
             ),
         ],
     )
-
+    layout = dbc.Container([content], fluid=True, className="dbc")
     return layout

@@ -1,10 +1,9 @@
 from pathlib import Path
 
 import dash_ag_grid as dag
-import numpy as np
 import pandas as pd
 import plotly.express as px
-from dash import Input, Output, callback, dcc, html, register_page
+from dash import dcc, html, register_page
 
 # Data
 THIS_FOLDER = Path(__file__).parent.parent.resolve()
@@ -54,19 +53,21 @@ def layout():
             dcc.Markdown(
                 """
                         ### Datasets
-                        The following table contains the Formula Monash Datasets.
+                        The following is a scatter plot of the leading model performance 
+                        for each dataset in the series, plotted as a function of the time 
+                        series frequency.
                         """
             ),
             dcc.Tabs(
                 [
                     dcc.Tab(
-                        label="Scatter Plot",
+                        label="Analysis",
                         children=[
                             dcc.Graph(figure=fig),
                         ],
                     ),
                     dcc.Tab(
-                        label="Table",
+                        label="Datasets",
                         children=[
                             dag.AgGrid(
                                 id="column-definitions-basic",

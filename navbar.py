@@ -44,16 +44,15 @@ def create_navbar():
                     dbc.DropdownMenuItem("Standings", href="/"),
                     dbc.DropdownMenuItem(divider=True),
                     dbc.DropdownMenuItem("Datasets", href="/datasets"),
-                    dbc.DropdownMenuItem("Models", href="/models"),
                     dbc.DropdownMenuItem("About", href="/about"),
                 ],
             ),
         ],
-        brand="The FITs F1 Score World Championship",
+        brand="🏁 The FITs F1 Score World Championship 🏁",
         brand_href="/",
         # sticky="top",  # Uncomment if you want the navbar to always appear at the top on scroll.
-        color="dark",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
-        dark=True,  # Change this to change color of text within the navbar (False for dark text)
+        # color="dark",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
+        # dark=True,  # Change this to change color of text within the navbar (False for dark text)
     )
 
     return navbar

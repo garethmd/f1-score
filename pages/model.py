@@ -27,7 +27,9 @@ def layout(model_id):
         children=[
             dcc.Markdown(
                 """
-                ### Standings
+                ### """
+                + model_id
+                + """
                 The following table contains the Formula Monash Datasets.
                 """
             ),
@@ -38,7 +40,7 @@ def layout(model_id):
                 columnDefs=columnDefs,
                 columnSize="sizeToFit",
                 dashGridOptions={"animateRows": True},
-                style={"height": "700px"},
+                style={"height": "100vh"},
             ),
         ],
     )
