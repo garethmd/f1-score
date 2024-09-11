@@ -1,42 +1,42 @@
-Dataset,Frequency,Forecast Horizon,MASE,Leader,Leader_Type
-M1 Yearly,Yearly,6,3.499,TBATS,Statistical
-M1 Quarterly,Quarterly,8,1.658,ETS,Statistical
-M1 Monthly,Monthly,18,1.074,ETS,Statistical
-M3 Yearly,Yearly,6,2.774,Theta,Statistical
-M3 Quarterly,Quarterly,8,1.117,Theta,Statistical
-M3 Monthly,Monthly,18,0.861,TBATS,Statistical
-M3 Other,Other,8,1.814,ETS,Statistical
-M4 Quarterly,Quarterly,8,1.161,ETS,Statistical
-M4 Monthly,Monthly,18,0.948,ETS,Statistical
-M4 Weekly,Weekly,13,0.453,N-BEATS,Neural Network
-M4 Daily,Daily,14,1.141,FFNN,Neural Network
-M4 Hourly,Hourly,48,1.662,PR,Linear Regression
-Tourism Yearly,Yearly,4,2.59,Prophet,Statistical
-Tourism Quarterly,Quarterly,8,1.475,N-BEATS,Neural Network
-Tourism Monthly,Monthly,24,1.409,DeepAR,Neural Network
-CIF 2016,Monthly,6,0.841,ETS,Statistical
-Aus. Elecdemand,Half Hourly,336,0.705,CatBoost,Ensemble
-Dominick,Weekly,8,0.531,WaveNet,Neural Network
-Bitcoin,Daily,30,2.664,PR,Linear Regression
-Pedestrians,Hourly,24,0.247,WaveNet,Neural Network
-Vehicle Trips,Daily,30,1.176,CatBoost,Ensemble
-KDD,Hourly,168,1.185,CatBoost,Ensemble
-Weather,Daily,30,0.631,DeepAR,Neural Network
-NN5 Daily,Daily,56,0.858,TBATS,Statistical
-NN5 Weekly,Weekly,8,0.808,N-BEATS,Neural Network
-Kaggle Weekly,Weekly,8,0.622,TBATS,Statistical
-Solar 10 Mins,10 Mins,1008,1.034,(DHR-)ARIMA,Statistical
-Solar Weekly,Weekly,5,0.574,Transformer,Neural Network
-Electricity Hourly,Hourly,168,1.606,WaveNet,Neural Network
-Electricity Weekly,Weekly,8,0.769,FFNN,Neural Network
-Carparts,Monthly,12,0.746,Transformer,Neural Network
-FRED-MD,Monthly,12,0.468,ETS,Statistical
-Traffic Hourly,Hourly,168,0.821,Transformer,Neural Network
-Traffic Weekly,Weekly,8,1.084,Prophet,Statistical
-Rideshare,Hourly,168,1.53,(DHR-)ARIMA,Statistical
-Hospital,Monthly,12,0.673,Prophet,Statistical
-COVID,Daily,30,5.326,ETS,Statistical
-Temp. Rain,Daily,30,0.687,Transformer,Neural Network
-Sunspot,Daily,30,0.003,Transformer,Neural Network
-Saugeen,Daily,30,1.411,CatBoost,Ensemble
-Births,Daily,30,1.453,TBATS,Statistical
+Dataset,Frequency,Forecast Horizon
+M1 Yearly,Yearly,6
+M1 Quarterly,Quarterly,8
+M1 Monthly,Monthly,18
+M3 Yearly,Yearly,6
+M3 Quarterly,Quarterly,8
+M3 Monthly,Monthly,18
+M3 Other,Other,8
+M4 Quarterly,Quarterly,8
+M4 Monthly,Monthly,18
+M4 Weekly,Weekly,13
+M4 Daily,Daily,14
+M4 Hourly,Hourly,48
+Tourism Yearly,Yearly,4
+Tourism Quarterly,Quarterly,8
+Tourism Monthly,Monthly,24
+CIF 2016,Monthly,6
+Aus. Elecdemand,Half Hourly,336
+Dominick,Weekly,8
+Bitcoin,Daily,30
+Pedestrians,Hourly,24
+Vehicle Trips,Daily,30
+KDD,Hourly,168
+Weather,Daily,30
+NN5 Daily,Daily,56
+NN5 Weekly,Weekly,8
+Kaggle Weekly,Weekly,8
+Solar 10 Mins,10 Mins,1008
+Solar Weekly,Weekly,5
+Electricity Hourly,Hourly,168
+Electricity Weekly,Weekly,8
+Carparts,Monthly,12
+FRED-MD,Monthly,12
+Traffic Hourly,Hourly,168
+Traffic Weekly,Weekly,8
+Rideshare,Hourly,168
+Hospital,Monthly,12
+COVID,Daily,30
+Temp. Rain,Daily,30
+Sunspot,Daily,30
+Saugeen,Daily,30
+US Births,Daily,30

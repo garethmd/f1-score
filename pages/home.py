@@ -9,7 +9,7 @@ from dash import dcc, register_page
 
 # Data
 THIS_FOLDER = Path(__file__).parent.parent.resolve()
-points_file = THIS_FOLDER / "data/points.csv"
+points_file = THIS_FOLDER / "data/leaderboard.csv"
 df = pd.read_csv(points_file).sort_values(by="Points", ascending=False)
 columnDefs = [
     {"field": "Position"},
@@ -23,7 +23,7 @@ columnDefs = [
 ]
 
 
-datasets_file = THIS_FOLDER / "data/datasets.csv"
+datasets_file = THIS_FOLDER / "data/datasets_leader.csv"
 datasets_df = pd.read_csv(datasets_file).sort_values(by="Dataset", ascending=True)
 datasets_columnDefs = [
     {
@@ -44,7 +44,7 @@ def dataset_scatter():
         datasets_df,
         x="Frequency",
         y="MASE",
-        color="Leader_Type",
+        color="Type",
         hover_data=["Dataset", "Leader", "Frequency", "Forecast Horizon"],
     )
     fig.update_xaxes(

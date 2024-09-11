@@ -1,0 +1,26 @@
+Model,Position,Points,Engine,Type
+(DHR-)ARIMA,8.0,236.0,R Forecast,State Space
+Autoformer,24.0,3.0,NNTS,Neural Net
+CatBoost,13.0,188.0,R Catboost,Ensemble
+DLinear independent,23.0,24.0,NNTS,Linear Regression
+DLinear multivariate,19.0,69.0,NNTS,Linear Regression
+DeepAR,10.0,215.0,GluonTS,Neural Net
+ETS,1.0,363.0,R Forecast,State Space
+FFNN,11.0,208.0,GluonTS,Neural Net
+Informer*,25.0,2.0,?,Neural Net
+N-BEATS,6.0,270.0,GluonTS,Neural Net
+N-BEATS global,4.0,316.0,NNTS,Neural Net
+N-HITS,2.0,346.0,NNTS,Neural Net
+NLinear independent,20.0,50.0,NNTS,Linear Regression
+NLinear multivariate,16.0,101.0,NNTS,Linear Regression
+PR,12.0,200.0,R Stats,Linear Regression
+PatchTST independent,22.0,39.0,NNTS,Neural Net
+PatchTST multivariate,21.0,43.0,NNTS,Neural Net
+Prophet,15.0,118.0,Meta,Statistical
+SES,17.0,93.0,R Forecast,Statistical
+TBATS,3.0,323.0,R Forecast,State Space
+Theta,5.0,275.0,R Forecast,State Space
+TiDE,18.0,81.0,NNTS,Neural Net
+TimesFM(ZS) foundational,9.0,220.0,timesfm,Neural Net
+Transformer,14.0,177.0,GluonTS,Neural Net
+WaveNet,7.0,259.0,GluonTS,Neural Net

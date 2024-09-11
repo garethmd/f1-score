@@ -21,7 +21,7 @@ columnDefs = [
     },
     {"field": "position"},
     {"field": "points"},
-    {"field": "mase"},
+    {"field": "MASE"},
 ]
 
 

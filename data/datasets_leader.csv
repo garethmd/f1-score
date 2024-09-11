@@ -1,0 +1,43 @@
+Dataset,Frequency,Forecast Horizon,Leader,Type,MASE
+M1 Yearly,Yearly,6,TBATS,State Space,3.499
+M1 Quarterly,Quarterly,8,ETS,State Space,1.658
+M1 Monthly,Monthly,18,ETS,State Space,1.074
+M3 Yearly,Yearly,6,Theta,State Space,2.774
+M3 Quarterly,Quarterly,8,Theta,State Space,1.117
+M3 Monthly,Monthly,18,TBATS,State Space,0.861
+M3 Other,Other,8,ETS,State Space,1.814
+M4 Quarterly,Quarterly,8,ETS,State Space,1.161
+M4 Monthly,Monthly,18,ETS,State Space,0.948
+M4 Weekly,Weekly,13,N-BEATS,Neural Net,0.453
+M4 Daily,Daily,14,N-BEATS global,Neural Net,1.125
+M4 Hourly,Hourly,48,TimesFM(ZS) foundational,Neural Net,0.812
+Tourism Yearly,Yearly,4,Prophet,Statistical,2.59
+Tourism Quarterly,Quarterly,8,N-BEATS,Neural Net,1.475
+Tourism Monthly,Monthly,24,DeepAR,Neural Net,1.409
+CIF 2016,Monthly,6,ETS,State Space,0.841
+Aus. Elecdemand,Half Hourly,336,CatBoost,Ensemble,0.705
+Dominick,Weekly,8,N-HITS,Neural Net,0.507
+Bitcoin,Daily,30,PR,Linear Regression,2.664
+Pedestrians,Hourly,24,N-HITS,Neural Net,0.241
+Vehicle Trips,Daily,30,CatBoost,Ensemble,1.176
+KDD,Hourly,168,WaveNet,Neural Net,1.185
+Weather,Daily,30,N-HITS,Neural Net,0.621
+Weather,Daily,30,TimesFM(ZS) foundational,Neural Net,0.621
+NN5 Daily,Daily,56,TBATS,State Space,0.858
+NN5 Weekly,Weekly,8,N-BEATS,Neural Net,0.808
+Kaggle Weekly,Weekly,8,N-HITS,Neural Net,0.582
+Solar 10 Mins,10 Mins,1008,(DHR-)ARIMA,State Space,1.034
+Solar Weekly,Weekly,5,Transformer,Neural Net,0.574
+Electricity Hourly,Hourly,168,WaveNet,Neural Net,1.606
+Electricity Weekly,Weekly,8,FFNN,Neural Net,0.769
+Carparts,Monthly,12,Transformer,Neural Net,0.746
+FRED-MD,Monthly,12,ETS,State Space,0.468
+Traffic Hourly,Hourly,168,TimesFM(ZS) foundational,Neural Net,0.799
+Traffic Weekly,Weekly,8,TimesFM(ZS) foundational,Neural Net,1.04
+Rideshare,Hourly,168,(DHR-)ARIMA,State Space,1.53
+Hospital,Monthly,12,Prophet,Statistical,0.673
+COVID,Daily,30,NLinear multivariate,Linear Regression,5.176
+Temp. Rain,Daily,30,Transformer,Neural Net,0.687
+Sunspot,Daily,30,Transformer,Neural Net,0.003
+Saugeen,Daily,30,CatBoost,Ensemble,1.411
+US Births,Daily,30,N-BEATS global,Neural Net,1.438

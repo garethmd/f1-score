@@ -7,7 +7,7 @@ from dash import dcc, html, register_page
 
 # Data
 THIS_FOLDER = Path(__file__).parent.parent.resolve()
-datasets_file = THIS_FOLDER / "data/datasets.csv"
+datasets_file = THIS_FOLDER / "data/datasets_leader.csv"
 df = pd.read_csv(datasets_file).sort_values(by="Dataset", ascending=True)
 columnDefs = [
     {
@@ -28,7 +28,7 @@ fig = px.scatter(
     df,
     x="Frequency",
     y="MASE",
-    color="Leader_Type",
+    color="Type",
     hover_data=["Dataset", "Leader", "Frequency", "Forecast Horizon"],
 )
 fig.update_xaxes(

@@ -1,15 +1,26 @@
-Model,Points,Engine,Type
-ETS,439,R Forecast,State Space
-TBATS,423,R Forecast,State Space
-N-BEATS,385,GluonTS,Neural Net
-WaveNet,372,GluonTS,Neural Net
-Theta,351,R Forecast,State Space
-FFNN,338,GluonTS,Neural Net
-DeepAR,327,GluonTS,Neural Net
-PR,321,R Stats,Linear Regression
-(DHR-)ARIMA,304,R Forecast,State Space
-CatBoost,273,R Catboost,Ensemble
-Transformer,236,GluonTS,Neural Net
-SES,178,R Forecast,Statistical
-Prophet,177,Meta,Statistical
-Informer*,18,?,Neural Net
+Model,Engine,Type
+ETS,R Forecast,State Space
+TBATS,R Forecast,State Space
+N-BEATS,GluonTS,Neural Net
+WaveNet,GluonTS,Neural Net
+Theta,R Forecast,State Space
+FFNN,GluonTS,Neural Net
+DeepAR,GluonTS,Neural Net
+PR,R Stats,Linear Regression
+(DHR-)ARIMA,R Forecast,State Space
+CatBoost,R Catboost,Ensemble
+Transformer,GluonTS,Neural Net
+SES,R Forecast,Statistical
+Prophet,Meta,Statistical
+Informer*,?,Neural Net
+N-BEATS global,NNTS,Neural Net
+N-HITS,NNTS,Neural Net
+DLinear independent,NNTS,Linear Regression
+DLinear multivariate,NNTS,Linear Regression
+NLinear independent,NNTS,Linear Regression
+NLinear multivariate,NNTS,Linear Regression
+Autoformer,NNTS,Neural Net
+PatchTST independent,NNTS,Neural Net
+PatchTST multivariate,NNTS,Neural Net
+TiDE,NNTS,Neural Net
+TimesFM(ZS) foundational,timesfm,Neural Net

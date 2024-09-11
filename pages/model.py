@@ -18,7 +18,7 @@ columnDefs = [
     },
     {"field": "position"},
     {"field": "points"},
-    {"field": "mase"},
+    {"field": "MASE"},
 ]
 
 
@@ -28,14 +28,16 @@ def layout(model_id):
             dcc.Markdown(
                 """
                 ### """
-                + model_id
+                + model_id.replace("%20", " ")
                 + """
                 The following table contains the Formula Monash Datasets.
                 """
             ),
             dag.AgGrid(
                 id="column-definitions-basic",
-                rowData=df.loc[df["model"] == model_id].to_dict("records"),
+                rowData=df.loc[df["model"] == model_id.replace("%20", " ")].to_dict(
+                    "records"
+                ),
                 defaultColDef={"filter": True},
                 columnDefs=columnDefs,
                 columnSize="sizeToFit",
